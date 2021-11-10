@@ -1,0 +1,72 @@
+h1{
+    font-family: monospace;
+    font-size:20px;
+    text-align: center;
+}
+
+.todos{
+    background-color: goldenrod ;
+    padding:16px;
+    border: 2px solid grey;
+}
+
+.todo{
+    display: flex;
+    padding: 10px 15px;
+    background-color: #FFF;
+    border-bottom:2px solid #DDD;
+}
+.todo:nth-child(even) {
+	background-color: #EEE;
+}
+.todo .id {
+	flex: 1 1 50px;
+}
+
+.todo .content {
+	flex: 1 1 100%;
+}
+
+.todo-input{
+    display: block;
+	width: 100%;
+	padding: 10px 15px;
+	appearance: none;
+	border: none;
+	background-color: #F3F3F3;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
+}
+.todo-submit {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+
+	background-color: #FE4880;
+	color: #FFF;
+	margin: 15px auto;
+
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+*{
+    box-sizing: border-box;
+  }
+  
+  .strikeText{
+	  text-decoration: line-through;
+  }
+  .btn{
+	  margin:5px 5px;
+	  width:150px;
+	  padding:2px 2px;
+	  background-color: rgb(108, 114, 108);
+	  color: white;
+	  border-radius: 2em;
+  }
